@@ -6,9 +6,9 @@ import HookCounterTwo from './components/HookCounterTwo';
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounter /> */}
+      <ClassCounter />
       {/* <HookCounter /> */}
-      <HookCounterTwo />
+      {/* <HookCounterTwo /> */}
     </div>
   );
 }
