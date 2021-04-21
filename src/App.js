@@ -1,3 +1,4 @@
+import DataFetching from './APIcomponents/DataFetching';
 import './App.css';
 import ClassCounter from './components/ClassCounter';
 import ClassCounterOne from './components/ClassCounterOne';
@@ -14,7 +15,8 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree /> */}
       {/* <HookCounterFour /> */}
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
+      <DataFetching />
 
     </div>
   );
