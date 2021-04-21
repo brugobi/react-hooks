@@ -7,6 +7,7 @@ import HookCounterFour from './components/HookCounterFour';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
 import CounterOne from './reducers/CounterOne';
+import CounterThree from './reducers/CounterThree';
 import CounterTwo from './reducers/CounterTwo';
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       {/* <ClassCounterOne /> */}
       {/* <DataFetching /> */}
       {/* <CounterOne /> */}
-      <CounterTwo />
-
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </div>
   );
 }
